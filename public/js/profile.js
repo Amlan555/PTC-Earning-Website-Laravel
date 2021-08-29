@@ -1,0 +1,1 @@
+const imageBox=document.getElementById("image-box"),imageUploader=document.getElementById("image-upload"),form=document.getElementById("image-upload-form");imageBox.addEventListener("click",function(){$(imageUploader).trigger("click"),imageUploader.addEventListener("change",function(){form.submit()})});
